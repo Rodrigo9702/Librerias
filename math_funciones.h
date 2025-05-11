@@ -16,6 +16,5 @@ float exponencialFuncion (int numero, int exponente);
 float raizCuadradaFuncion (int numero, float tolerancia);
 bool buscarEnFibonacciFuncion (int numero);
 float senFuncion (float numero, float tolerancia);
-//bool compararString (char *texto, char *textoAComparar);
 
 #endif //FUNCIONES_MATEMATICAS_H_INCLUDED

@@ -1,4 +1,4 @@
-#include "/home/rodrigo/Downloads/Ejercicios"
+#include "funciones/math_funciones.h"
 
 long long factorialFuncion (long long numero)
 {
@@ -108,16 +108,3 @@ float senFuncion (float numero, float tolerancia)
     } while (termino >= tolerancia);
     return resultado;
 }
-
-/*bool compararString (char *texto, char *textoAComparar)
-{
-    while (*textoAComparar == *texto && (*textoAComparar != '\0' && *texto != '\0'))
-    {
-        textoAComparar++;
-        texto++;
-    }
-    if (*textoAComparar == *texto)
-        return true;
-    else
-        return false;
-}*/
