@@ -1,4 +1,4 @@
-#include "funciones/math_funciones.h"
+#include "math_funciones.h"
 
 long long factorialFuncion (long long numero)
 {
