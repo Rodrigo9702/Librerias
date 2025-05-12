@@ -108,3 +108,24 @@ float senFuncion (float numero, float tolerancia)
     } while (termino >= tolerancia);
     return resultado;
 }
+
+bool esDivisorFuncion (int num, int divisor)
+{
+    if (num % divisor == 0)
+        return true;
+    else
+        return false
+}
+
+int esPerfectoFuncion (int num)
+{
+    int resultado = 0,div = 1;
+    while (div < num)
+    {
+        if (esDivisorFuncion(num, div) == true)
+            resultado += div;
+        else
+            div++;
+    }
+    return resultado;
+}
