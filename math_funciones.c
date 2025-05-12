@@ -114,7 +114,7 @@ bool esDivisorFuncion (int num, int divisor)
     if (num % divisor == 0)
         return true;
     else
-        return false
+        return false;
 }
 
 int esPerfectoFuncion (int num)
