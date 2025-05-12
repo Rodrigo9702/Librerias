@@ -135,6 +135,6 @@ int productoPorSumaSucesivasFuncion (int numero, int multiplicador)
     if (multiplicador == 0)
         return 0;
     for (int i = 0; i < multiplicador; i++)
-        resultado += num;
+        resultado += numero;
     return resultado;
 }
