@@ -18,5 +18,6 @@ bool buscarEnFibonacciFuncion (int numero);
 float senFuncion (float numero, float tolerancia);
 bool esDivisorFuncion (int num, int divisor);
 int esPerfectoFuncion (int num);
+int productoPorSumaSucesivasFuncion (int numero, int multiplicador);
 
 #endif //FUNCIONES_MATEMATICAS_H_INCLUDED

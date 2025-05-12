@@ -128,3 +128,13 @@ int esPerfectoFuncion (int num)
     }
     return resultado;
 }
+
+int productoPorSumaSucesivasFuncion (int numero, int multiplicador)
+{
+    int resultado = 0;
+    if (multiplicador == 0)
+        return 0;
+    for (int i = 0; i < multiplicador; i++)
+        resultado += num;
+    return resultado;
+}
