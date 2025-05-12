@@ -138,3 +138,12 @@ int productoPorSumaSucesivasFuncion (int numero, int multiplicador)
         resultado += numero;
     return resultado;
 }
+
+int cocienteFuncion (int numero, int divisor)
+{
+    for (int i = 0; i <= numero; i++)
+    return i--;
+}
+
+int restoFuncion (int numero, int divisor)
+    return numero-cocienteFuncion(numero, divisor);

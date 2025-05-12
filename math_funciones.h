@@ -19,5 +19,6 @@ float senFuncion (float numero, float tolerancia);
 bool esDivisorFuncion (int num, int divisor);
 int esPerfectoFuncion (int num);
 int productoPorSumaSucesivasFuncion (int numero, int multiplicador);
-
+int cocienteFuncion (int numero, int divisor);
+int restoFuncion (int numero, int divisor);
 #endif //FUNCIONES_MATEMATICAS_H_INCLUDED
