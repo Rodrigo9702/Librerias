@@ -124,8 +124,7 @@ int esPerfectoFuncion (int num)
     {
         if (esDivisorFuncion(num, div) == true)
             resultado += div;
-        else
-            div++;
+        div++;
     }
     return resultado;
 }
