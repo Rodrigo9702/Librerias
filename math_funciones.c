@@ -141,9 +141,14 @@ int productoPorSumaSucesivasFuncion (int numero, int multiplicador)
 
 int cocienteFuncion (int numero, int divisor)
 {
-    for (int i = 0; i <= numero; i++)
-    return i--;
+    int i = 1;
+    while (i*divisor <= numero)
+        i++;
+    i--;
+    return i;
 }
 
 int restoFuncion (int numero, int divisor)
-    return numero-cocienteFuncion(numero, divisor);
+{
+    return numero-(divisor*cocienteFuncion(numero, divisor));
+}
